@@ -1,0 +1,24 @@
+// REQUIRED DEPENDENCIES - DO NOT CHANGE
+
+// Load Third Party Libraries
+@import "../../antimatter/scss/vendor/bourbon/bourbon";
+
+// Load Nucleus Configuration
+@import "../../antimatter/scss/configuration/nucleus/base";
+
+// Load Template Configuration
+@import "../../antimatter/scss/configuration/template/base";
+
+// Load Nucleus Mixins and Functions
+@import "../../antimatter/scss/nucleus/functions/base";
+@import "../../antimatter/scss/nucleus/mixins/base";
+
+//-------------------------------------------
+
+// LOAD PARTICLES
+
+// Text Alignment Classes
+@import "../../antimatter/scss/nucleus/particles/align-text";
+
+// Show and Hide Based on Screen Size
+@import "../../antimatter/scss/nucleus/particles/visibility";

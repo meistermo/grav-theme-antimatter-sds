@@ -923,14 +923,14 @@ ul.pagination {
 #header.scrolled {
   background-color: #2D0A41 !important; }
 
+#header.scrolled a {
+  color: #00BBA4 !important; }
+
 #header {
   background-color: #B1003A; }
 
 #header a {
   color: #00BBA4; }
-
-#header.scrolled a {
-  color: #00BBA4 !important; }
 
 #footer {
   background-color: #B1003A; }

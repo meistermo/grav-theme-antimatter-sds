@@ -926,6 +926,9 @@ ul.pagination {
 #header {
   background-color: #B1003A; }
 
+#header a {
+  color: #00BBA4; }
+
 #footer {
   background-color: #B1003A; }
 

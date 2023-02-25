@@ -1,0 +1,18 @@
+name: Antimatter Sds
+slug: antimatter-sds
+type: theme
+version: 0.1.0
+description: Custom Antimatter Theme for Grav
+icon: rebel
+author:
+  name: Mo Menzel
+  email: mo@linke-sds.org
+homepage: https://github.com/mo-menzel/grav-theme-antimatter-sds
+demo: http://demo.yoursite.com
+keywords: grav, theme, etc
+bugs: https://github.com/mo-menzel/grav-theme-antimatter-sds/issues
+readme: https://github.com/mo-menzel/grav-theme-antimatter-sds/blob/develop/README.md
+license: MIT
+
+dependencies:
+  - { name: grav, version: '>=1.6.0' }

@@ -920,11 +920,11 @@ ul.pagination {
 .modular .modular-row:last-child {
   margin-bottom: 2rem; }
 
+#header.scrolled {
+  background-color: #2D0A41; }
+
 #header {
   background-color: #B1003A; }
-
-.scrolled {
-  background-color: #2D0A41; }
 
 #footer {
   background-color: #B1003A; }

@@ -923,7 +923,7 @@ ul.pagination {
 #header {
   background-color: #B1003A; }
 
-#header.scrolled {
+header#header.scrolled {
   background-color: #2D0A41; }
 
 #footer {

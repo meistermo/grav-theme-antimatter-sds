@@ -944,4 +944,7 @@ ul.pagination {
 .navigation a:hover {
   border: 0; }
 
+.navigation {
+  border: 10px; }
+
 /*# sourceMappingURL=template.css.map */

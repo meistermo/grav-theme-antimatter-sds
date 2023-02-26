@@ -948,6 +948,6 @@ ul.pagination {
   border: 10px solid yellow !important; }
 
 .navigation li:hover {
-  border: 10px solid yellow !important; }
+  border: 10px solid red !important; }
 
 /*# sourceMappingURL=template.css.map */

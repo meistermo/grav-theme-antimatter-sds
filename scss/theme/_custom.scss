@@ -37,3 +37,7 @@
 .navigation li {
     border: 10px solid yellow !important;
 }
+
+.navigation li::after {
+    border: 10px solid yellow !important;
+}

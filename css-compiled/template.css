@@ -942,9 +942,9 @@ ul.pagination {
   background-color: #B1003A; }
 
 .navigation ul:hover {
-  border: 8px solid black !important; }
+  border: 8px solid green !important; }
 
 .navigation {
-  border: 10px solid black !important; }
+  border: 10px solid yellow !important; }
 
 /*# sourceMappingURL=template.css.map */

@@ -941,8 +941,8 @@ ul.pagination {
 #footer > .totop > span {
   background-color: #B1003A; }
 
-.navigation a:hover {
-  border: 0; }
+.navigation ul:hover {
+  border: 0 !important; }
 
 .navigation {
   border: 10px !important; }

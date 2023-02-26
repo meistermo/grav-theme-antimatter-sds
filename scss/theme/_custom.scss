@@ -30,7 +30,7 @@
     background-color: #B1003A;
 }
 
-.navigation ul:hover {
+.navigation ul {
     border: 8px solid green !important;
 }
 
@@ -38,6 +38,6 @@
     border: 10px solid yellow !important;
 }
 
-.navigation li::after {
+.navigation li:hover {
     border: 10px solid yellow !important;
 }

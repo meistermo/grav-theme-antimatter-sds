@@ -944,7 +944,7 @@ ul.pagination {
 .navigation ul:hover {
   border: 8px solid green !important; }
 
-.navigation {
+.navigation li {
   border: 10px solid yellow !important; }
 
 /*# sourceMappingURL=template.css.map */

@@ -927,7 +927,8 @@ ul.pagination {
   background-color: #B1003A; }
 
 #header > #navbar a {
-  color: #00BBA4 !important; }
+  color: white !important;
+  font-weight: bolder; }
 
 #header.scrolled > #navbar a {
   color: #00BBA4 !important; }
@@ -940,9 +941,6 @@ ul.pagination {
 
 #footer > .totop > span {
   background-color: #B1003A; }
-
-.navigation ul {
-  border: 8px solid green !important; }
 
 #navbar ul.navigation li:hover {
   background-color: white; }

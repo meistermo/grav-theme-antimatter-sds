@@ -8,7 +8,9 @@
 }
 
 #header > #navbar a {
-    color: #00BBA4 !important;
+    color: white !important;
+    font-weight: bolder;
+    //color: #00BBA4 !important;
 }
 
 #header.scrolled > #navbar a {
@@ -19,8 +21,6 @@
     background-color: #B1003A;
 }
 
-//l
-
 #footer a {
     color: #00BBA4;
     //color: #2D0A41;
@@ -28,10 +28,6 @@
 
 #footer > .totop > span {
     background-color: #B1003A;
-}
-
-.navigation ul {
-    border: 8px solid green !important;
 }
 
 #navbar ul.navigation li:hover {

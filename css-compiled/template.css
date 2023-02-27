@@ -951,6 +951,6 @@ ul.pagination {
   border: 1px solid green !important; }
 
 .navigation a::before {
-  border: none !important; }
+  border: 40px solid yellow !important; }
 
 /*# sourceMappingURL=template.css.map */

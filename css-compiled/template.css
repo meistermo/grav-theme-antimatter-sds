@@ -949,6 +949,7 @@ ul.pagination {
     border: 10px solid #ffff00 !important;
 }
 */
+/* Override antimatter theme animation */
 #navbar ul.navigation li a::before,
 #navbar ul.navigation li a::after {
   display: none; }

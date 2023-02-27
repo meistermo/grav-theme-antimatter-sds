@@ -928,7 +928,7 @@ ul.pagination {
 #header {
   background-color: #B1003A; }
 
-#header > #navbar a {
+#header > #navbar a, #header.scrolled > #navbar a {
   font-family: 'Open Sans', sans-serif !important;
   font-weight: 600;
   color: white !important; }
@@ -939,9 +939,6 @@ ul.pagination {
   transition: none !important;
   height: 3px !important;
   background-color: white !important; }
-
-#header.scrolled > #navbar a {
-  color: white !important; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Bitter', serif !important;

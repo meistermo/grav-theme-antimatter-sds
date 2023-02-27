@@ -38,10 +38,7 @@
     border: 10px solid yellow !important;
 }
 
-.navigation a::after {
-    border: 10px solid yellow !important;
-}
-
-.navigation a::before {
-    border: 10px solid yellow !important;
+/* Override antimatter animation */
+.navigation a::before, .navigation a::after {
+    border: 0px solid yellow !important;
 }

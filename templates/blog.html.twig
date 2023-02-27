@@ -3,7 +3,12 @@
 	{% set collection = page.collection() %}
 
 	{% block content %}
-    <h1>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAa</h1>
+    <h1>The quick brown fox jumps over the fence.</h1>
+    <h2>The quick brown fox jumps over the fence.</h2>
+    <h3>The quick brown fox jumps over the fence.</h3>
+    <h4>The quick brown fox jumps over the fence.</h4>
+    <h5>The quick brown fox jumps over the fence.</h5>
+    <h6>The quick brown fox jumps over the fence.</h6>
 		{% set blog_image = page.media.images|first.grayscale().contrast(20).brightness(-100).colorize(-35,81,122) %}
 
 		{% if blog_image %}

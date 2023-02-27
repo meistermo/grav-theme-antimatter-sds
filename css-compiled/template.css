@@ -945,7 +945,9 @@ ul.pagination {
   border: 8px solid green !important; }
 
 #navbar ul.navigation li:hover {
-  background-color: white;
+  background-color: white; }
+
+#navbar ul.navigation li a:hover {
   color: black !important;
   font-weight: bold; }
 

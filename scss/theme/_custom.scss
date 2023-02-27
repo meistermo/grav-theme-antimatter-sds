@@ -16,11 +16,12 @@
     //color: #00BBA4 !important;
 }
 
-/*
+// Override
 #header.scrolled > #navbar a {
-    color: #00BBA4 !important;
+    //color: #00BBA4 !important;
+    color: white !important;
 }
-*/
+
 
 #footer {
     background-color: #B1003A;
@@ -40,4 +41,5 @@
 #navbar ul.navigation li a::after {
     //display: none;
     transition: none !important;
+    height: 2px;
 }

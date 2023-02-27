@@ -931,11 +931,9 @@ ul.pagination {
   font-family: 'Open Sans', sans-serif !important;
   color: white !important; }
 
-/*
 #header.scrolled > #navbar a {
-    color: #00BBA4 !important;
-}
-*/
+  color: white !important; }
+
 #footer {
   background-color: #B1003A; }
 
@@ -948,6 +946,7 @@ ul.pagination {
 /* Override antimatter theme animation */
 #navbar ul.navigation li a::before,
 #navbar ul.navigation li a::after {
-  transition: none !important; }
+  transition: none !important;
+  height: 2px; }
 
 /*# sourceMappingURL=template.css.map */

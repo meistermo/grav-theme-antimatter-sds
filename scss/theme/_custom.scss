@@ -39,5 +39,5 @@
 #navbar ul.navigation li a::before, 
 #navbar ul.navigation li a::after {
     //display: none;
-    transition: none;
+    transition: none !important;
 }

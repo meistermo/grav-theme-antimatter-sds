@@ -948,6 +948,6 @@ ul.pagination {
 /* Override antimatter theme animation */
 #navbar ul.navigation li a::before,
 #navbar ul.navigation li a::after {
-  transition: none; }
+  transition: none !important; }
 
 /*# sourceMappingURL=template.css.map */

@@ -17,6 +17,13 @@
     //color: #00BBA4 !important;
 }
 
+#header > #navbar a:hover, #header.scrolled > #navbar a:hover {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 600; //semi-bold
+    color: white !important;
+    //color: #00BBA4 !important;
+}
+
 /* Override antimatter theme animation */
 #navbar ul.navigation li a::before, 
 #navbar ul.navigation li a::after {

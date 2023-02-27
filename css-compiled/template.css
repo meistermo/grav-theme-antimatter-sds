@@ -949,10 +949,8 @@ ul.pagination {
     border: 10px solid #ffff00 !important;
 }
 */
-.navigation a::after {
-  border: 1px solid green !important; }
-
-.navigation a::before {
-  border: 40px solid yellow !important; }
+#navbar ul.navigation li a::before,
+#navbar ul.navigation li a::after {
+  display: none; }
 
 /*# sourceMappingURL=template.css.map */

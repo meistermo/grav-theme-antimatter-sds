@@ -947,13 +947,10 @@ ul.pagination {
 .navigation a:hover {
   border: 10px solid yellow !important; }
 
-.navigation li:hover {
-  border: 10px solid red !important; }
+.navigation a::after {
+  border: 10px solid yellow !important; }
 
-.navigation li::before {
-  border: 10px solid red !important; }
-
-.navigation li::after {
-  border: 10px solid red !important; }
+.navigation a::before {
+  border: 10px solid yellow !important; }
 
 /*# sourceMappingURL=template.css.map */

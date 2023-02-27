@@ -932,8 +932,20 @@ ul.pagination {
   font-weight: 600;
   color: white !important; }
 
+/* Override antimatter theme animation */
+#navbar ul.navigation li a::before,
+#navbar ul.navigation li a::after {
+  transition: none !important;
+  height: 3px !important;
+  background-color: white !important; }
+
 #header.scrolled > #navbar a {
   color: white !important; }
+
+#body {
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 400;
+  color: #2C2E35; }
 
 #footer {
   background-color: #B1003A; }
@@ -943,12 +955,5 @@ ul.pagination {
 
 #footer > .totop > span {
   background-color: #B1003A; }
-
-/* Override antimatter theme animation */
-#navbar ul.navigation li a::before,
-#navbar ul.navigation li a::after {
-  transition: none !important;
-  height: 3px !important;
-  background-color: white !important; }
 
 /*# sourceMappingURL=template.css.map */

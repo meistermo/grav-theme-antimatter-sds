@@ -944,11 +944,11 @@ ul.pagination {
 .navigation ul {
   border: 8px solid green !important; }
 
-/*
-.navigation a:hover {
-    border: 10px solid #ffff00 !important;
-}
-*/
+#navbar ul.navigation li:hover {
+  background-color: white;
+  color: black;
+  font-weight: bold; }
+
 /* Override antimatter theme animation */
 #navbar ul.navigation li a::before,
 #navbar ul.navigation li a::after {

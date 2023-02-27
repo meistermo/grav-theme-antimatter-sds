@@ -942,7 +942,7 @@ ul.pagination {
 #header.scrolled > #navbar a {
   color: white !important; }
 
-#body {
+p {
   font-family: 'Open Sans', sans-serif !important;
   font-weight: 400;
   color: #2C2E35; }

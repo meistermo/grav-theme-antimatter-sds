@@ -929,12 +929,13 @@ ul.pagination {
 
 #header > #navbar a {
   font-family: 'Open Sans', sans-serif !important;
-  font-weight: bolder;
   color: white !important; }
 
+/*
 #header.scrolled > #navbar a {
-  color: #00BBA4 !important; }
-
+    color: #00BBA4 !important;
+}
+*/
 #footer {
   background-color: #B1003A; }
 
@@ -944,16 +945,9 @@ ul.pagination {
 #footer > .totop > span {
   background-color: #B1003A; }
 
-#navbar ul.navigation li:hover {
-  background-color: white; }
-
-#navbar ul.navigation li a:hover {
-  color: black !important;
-  font-weight: bold; }
-
 /* Override antimatter theme animation */
 #navbar ul.navigation li a::before,
 #navbar ul.navigation li a::after {
-  display: none; }
+  transition: none; }
 
 /*# sourceMappingURL=template.css.map */

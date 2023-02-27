@@ -950,4 +950,10 @@ ul.pagination {
 .navigation li:hover {
   border: 10px solid red !important; }
 
+.navigation li::before {
+  border: 10px solid red !important; }
+
+.navigation li::after {
+  border: 10px solid red !important; }
+
 /*# sourceMappingURL=template.css.map */

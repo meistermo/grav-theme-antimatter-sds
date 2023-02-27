@@ -41,5 +41,6 @@
 #navbar ul.navigation li a::after {
     //display: none;
     transition: none !important;
-    height: 2px;
+    height: 3px !important;
+    background-color: white !important;
 }

@@ -947,6 +947,7 @@ ul.pagination {
 #navbar ul.navigation li a::before,
 #navbar ul.navigation li a::after {
   transition: none !important;
-  height: 2px; }
+  height: 3px !important;
+  background-color: white !important; }
 
 /*# sourceMappingURL=template.css.map */

@@ -936,6 +936,12 @@ ul.pagination {
   font-weight: 600;
   color: white !important; }
 
+#header > #navbar li a span::after,
+#header > #navbar li a:hover span::after,
+#header.scrolled > #navbar li a span::after,
+#header.scrolled > #navbar li a span::after {
+  color: white; }
+
 /* Override antimatter theme animation */
 #navbar ul.navigation li a::before,
 #navbar ul.navigation li a::after {

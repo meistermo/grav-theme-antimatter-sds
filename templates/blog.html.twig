@@ -2,6 +2,13 @@
 
 	{% set collection = page.collection() %}
 
+	{% set dbresults = db.mysql("sds_data").selectall("SELECT * FROM newsletter") %}
+	{% if dbresults is iterable %}
+		{% for row in dbresults %}
+			<h1> {{ row }} </h1>
+		{% endfor %}
+	{% endif %}
+
 	{% block content %}
     <h1>The quick brown fox jumps over the lazy dog.</h1>
     <h2>The quick brown fox jumps over the lazy dog.</h2>

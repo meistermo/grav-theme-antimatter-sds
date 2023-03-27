@@ -2,7 +2,7 @@
 
 	{% set collection = page.collection() %}
 
-	{% set dbresults = db.mysql("sds_data").selectall("SELECT * FROM newsletter") %}
+	{% set dbresults = db.mysql("sds_data").selectall("SELECT * FROM newsletter WHERE name = h") %}
 	
 	{% block content %}
 

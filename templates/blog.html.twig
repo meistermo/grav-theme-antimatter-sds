@@ -6,7 +6,6 @@
 	
 	{% block content %}
 
-	<h1>{{ dbresults }}</h1>
 	{% if dbresults is iterable %}
 		{% for row in dbresults %}
 			<h1> {{ row }} </h1>

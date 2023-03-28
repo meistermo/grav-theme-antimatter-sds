@@ -9,6 +9,7 @@ class AntimatterSDS extends Antimatter {
     //Make db accessible to twig
     public function onTwigSiteVariables(): void {
         $this->grav["twig"]->twig_vars["db"] = Grav::instance()['database'];
+        echo var_dump(Grav::instance()['database']);
+        echo var_dump(Grav::instance()['database']);
     }      
 }
-

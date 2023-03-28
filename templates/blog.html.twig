@@ -2,11 +2,11 @@
 
 	{% set collection = page.collection() %}
 
-	{% set dbresults = db.mysql("sds_data").selectall("SELECT * FROM newsletter WHERE name = h") %}
+	{% set dbresults = db.mysql("sds_data").selectall("SELECT * FROM newsletter") %}
 	
 	{% block content %}
 
-	<h1>{{ dbresults }} hihi</h1>
+	<h1>{{ db.mysql('sds_data') }} hihi</h1>
 	{% if dbresults is iterable %}
 		{% for row in dbresults %}
 			<h1> {{ row }} </h1>
